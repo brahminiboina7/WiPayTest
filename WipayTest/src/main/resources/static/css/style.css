@@ -1,0 +1,353 @@
+body, html {
+   /* background-image: linear-gradient(rgb(104, 145, 162), rgb(12, 97, 33));
+    background-repeat: no-repeat;*/
+    height: 100%;
+}
+@font-face {
+    font-family: 'nunitolight';
+    src: url('fonts/nunito-light-webfont.eot');
+    src: url('fonts/nunito-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/nunito-light-webfont.woff2') format('woff2'),
+         url('fonts/nunito-light-webfont.woff') format('woff'),
+         url('fonts/fonts/nunito-light-webfont.ttf') format('truetype'),
+         url('fonts/fonts/nunito-light-webfont.svg#nunitolight') format('svg');
+		 font-weight: normal;
+		 font-style: normal;
+
+}
+@font-face {
+    font-family: 'nunitoregular';
+    src: url('fonts/nunito-regular-webfont.eot');
+    src: url('fonts/nunito-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/nunito-regular-webfont.woff2') format('woff2'),
+         url('fonts/nunito-regular-webfont.woff') format('woff'),
+         url('fonts/nunito-regular-webfont.ttf') format('truetype'),
+         url('fonts/nunito-regular-webfont.svg#nunitoregular') format('svg');
+		 font-weight: normal;
+		 font-style: normal;
+
+}
+@import "http://fonts.googleapis.com/css?family=Nunito";
+/* .treeview.nav.side-menu {
+  height: 759px;
+  overflow-y: auto;
+} */
+.invalid {
+  color: #009dca;
+  display: inline-block;
+  margin-bottom: 15px;
+  display:none;
+}
+.fc-color-picker a{font-size:30px;}
+.inner_mid {
+  /* padding: 200px 0 170px; */
+ padding: 8% 0 0;
+}
+.brd_padd {
+    background-image: -webkit-gradient(linear, 0 0, 0 10%, from(rgba(0,145,222,0.5)), to(rgba(0,176,160,0.5)));
+    background-image: -webkit-linear-gradient(rgba(0,145,222,0.5), rgba(0,176,160,0.5));
+    background-image:
+        -moz-linear-gradient(rgba(0,145,222,0.5), rgba(0,176,160,0.5)),
+        -moz-linear-gradient(rgba(0,145,222,0.5), rgba(0,176,160,0.5));
+    background-image:
+        -o-linear-gradient(rgba(0,145,222,0.5), rgba(0,176,160,0.5)0),
+        -o-linear-gradient(rgba(0,145,222,0.5), rgba(0,176,160,0.5)0);
+    background-image: 
+        linear-gradient(rgba(0,145,222,0.5), rgba(0,176,160,0.5)),
+        linear-gradient(rgba(0,145,222,0.5), rgba(0,176,160,0.5));
+	border-width: 8px ;  
+	border-radius: 5px;
+	padding: 56px;
+}
+
+.dashboard_graph td b {
+  color: #666;
+}
+.text-center {
+	text-align: center;
+}
+.submitbutton {
+  float: left;
+  width: 33%;
+}.text {
+    line-height: 20px;
+}
+.attached_img{float:left;border:1px solid black;padding:10px;}
+.attached_img input{float:left;}
+.blue
+{	background-color: #009dca;
+	border-bottom: 5px solid #038bb2;
+	text-shadow: 0px -2px #2980B9;
+	border-top:none;
+	border-left:none;
+	border-right:none;
+}.animate
+{	transition: all 0.1s;
+	-webkit-transition: all 0.1s;
+}
+.action-button:active, .action-button:focus
+{
+	transform: translate(0px,5px);
+    -webkit-transform: translate(0px,5px);
+	border-bottom: 2px solid #038bb2;
+}
+.action-button
+{	position: relative;
+	padding: 3px 40px;
+    margin: 0px 10px 10px 0px;
+    float: left;
+	border-radius: 6px;
+	font-family: nunitolight;
+	font-size: 18px;
+	color: #FFF;
+	text-decoration: none;	
+}
+.log_in input[type="submit"] { 
+/*border-radius: 3px;
+  box-shadow: 1px 1px 4px #dadada; 
+  height: 40px; */ 
+ color: #fff;
+ width: 100%;
+ max-width: 200px;
+ margin-top: 6px;
+}
+/* dashboard graph css*/
+.right_line{border-left:1px solid #eee}
+.table > tbody > tr > td, .table > tbody > tr > th, .table > tfoot > tr > td, .table > tfoot > tr > th, .table > thead > tr > td, .table > thead > tr > th {
+  border-top: 0px;
+ }
+.dashboard_graph th{ background: rgba(0, 0, 0, 0) linear-gradient(154deg, #008fe2 0px, #00b29c 100%) repeat scroll 0 0;font: 11px/37px "nunitoregular","Helvetica Neue";color:#fff;text-align:center}
+.billing_report td {
+  padding: 8px!important;
+}
+.input_share {
+  vertical-align: top;
+}.table {
+  margin-bottom: 0px;
+ }
+.helpbutton{
+    border-radius: 3px;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
+    color: #fff !important;
+    display: inline-block;
+    font-size: 15px;
+    font-weight: normal;
+    padding: 6px 14px;
+    text-decoration: none !important;
+	background-color:#2a3f54;
+	border:none;
+}
+ul .fieldtitle {
+    color: #333;
+    font: 14px/37px "nunitoregular","Helvetica Neue";
+    margin-bottom: 0;
+    padding: 5px 0;
+}
+.upload{
+border-radius: 3px;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
+    color: #fff !important;
+    display: inline-block;
+    font: 11px/37px "nunitoregular","Helvetica Neue";
+    font-weight: normal;
+    padding: 0px 14px;
+    text-decoration: none !important;
+	background-color:#2a3f54;
+	border:none;
+	
+}
+.button {
+    background-color: #2a3f54!important;
+    border: medium none;
+    border-radius: 3px;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
+    color: #fff !important;
+    display: inline-block;
+    font: 14px/37px "nunitoregular","Helvetica Neue";
+    padding: 0 14px;
+    text-decoration: none !important;
+}
+.form-control {
+   border: 1px solid #ccc;
+   border-radius: 0;
+   box-sizing: border-box;
+   font-family: "nunitolight";
+   font-size: 13px;
+   margin: 2px;
+   max-width: 200px;display: inline-block;
+}#mns {
+   height: 200px;
+}.add_new{color: #263b4c!important;
+   font-size: 12px;
+   padding: 9px; 
+   font-family: "nunitoregular","Helvetica Neue"!important;}
+ .dashboard_graph .dropbox, .dashboard_graph  select {
+   border: 1px solid #ccc;border-radius: 0; box-sizing: border-box;font-family: "nunitolight";font-size: 13px;   margin: 2px;
+   max-width: 200px;display: inline-block; background-color: #fff;box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+  color: #555;height: 34px;line-height: 1.42857;padding: 6px 12px; transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
+ }#calendarDiv {  
+  border: none!important; 
+}#calendarDiv td{color: #333;
+  font: 13px/24px "nunitoregular","Helvetica Neue";!important}
+#calendarDiv .topBar div {
+  margin-right: 10px !important;
+}#monthDropDown{left:60px!important}
+#yearDropDown{left:140px!important;}
+object {
+  height: 100%;
+  min-height: 792px;
+  width: 100%;}
+#calendarDiv .topBar {
+  background-color: #1b363f!important;
+  height: 42px!important;
+  padding: 14px 2px 2px!important;
+ -webkit-border-radius: 10px 0px 10px 0px;
+ -moz-border-radius: 10px 0px 10px 0px;
+  border-radius: 10px 10px 0px 0px;
+}.calendar_week_row{
+  background-color:#ff623f;
+  height:30px;
+}#calendarDiv .todaysDate { 
+  height: 22px!important;
+  -webkit-border-radius: 0px 0px 10px 10px;
+  -moz-border-radius: 0px 0px 10px 10px;
+  border-radius: 0px 0px 10px 10px;
+ }
+.left_pad_10{
+ padding-left:10px!important;
+}.radio_btn_padd input[type="radio"] {
+  margin-right: 10px;margin-left: 7px;
+}
+.dashboard_graph td {
+  font: 11px/37px "nunitoregular","Helvetica Neue" ;
+  margin-bottom: 0;color: #333;padding:5px 0px;
+}
+#container1.title b{
+ font: 14px/37px "nunitoregular","Helvetica Neue" ;
+ margin-bottom: 0;color: #333;padding:5px 0px;
+ }
+.zip_file {
+ width: 20%;
+}
+.left-panel-menu ul{list-style:none; padding:0; margin:0;}
+.left-panel-menu li { width: 100%; margin-top: 2px; }
+.left-panel-menu li a{color: #fff !important;  font-family: "nunitoregular","Helvetica Neue"; width:100%;   padding: 10px 0; background:#0190d3; text-decoration:none;cursor:pointer;  padding: 6px 5px;display: inline-block;}
+.left-panel-menu li a:hover{color: #515356 !important; background:#ededed ;  }
+.dashboard_graph h1 {
+  color: #263b4c;
+  font-family: "nunitoregular","Helvetica Neue";
+  font-size: 18px; 
+  margin: 30px 0 20px !important;
+}.inner_h1 {
+  color: #263b4c;
+  font-family: "nunitoregular","Helvetica Neue";
+  font-size: 15px; 
+  margin: 20px 0px 0px 0px !important;
+}
+/* login page css*/
+#owl-demo .item img{
+   display: block;
+   width: 100%;
+   height: 315px;
+ }
+ .item > img {
+  border: 10px solid white;
+  border-radius: 10px 10px 10px 10px;
+  }
+  .bdr_design {
+  margin-top: 6%;
+ }
+.sigin-container h3 {
+	color: #243b4d;
+	font-family: nunitoregular;
+	font-size: 15px;
+	margin-top: 0;
+}
+.sigin-container h1 {
+	color: #0190d4;
+	font-family: nunitoregular;
+	font-size: 29px;
+	margin-top: 0;font-weight:600;
+}
+.sigin-container.sigin {    
+    padding: 40px 0px; 
+}
+.sigin {    
+    margin: 20px auto 25px;
+    padding: 20px 25px 30px;
+}
+.card-container.card {
+	max-width: 350px;    
+}.card {
+	margin: 20px auto 0;
+	padding: 0 25px 30px;
+}.form-signin #uname, .form-signin #pass {
+	direction: ltr;
+	font-size: 16px;
+	height: 44px;background:#ecf0f1;
+	border: 1px solid #e6e6e6;
+}.form-signin input[type="email"], .form-signin input[type="password"], .form-signin input[type="text"], .form-signin button {
+	box-sizing: border-box;
+	display: block;
+	margin-bottom: 10px;
+	position: relative;
+	width: 100%;
+	z-index: 1;font-size: 12px; 
+	font-family: nunitolight;
+}.form-signin .form-control:focus {
+	border-color: rgb(104, 145, 162);
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 2px rgb(104, 145, 162);
+	outline: 0 none;
+}#remember > label{
+	font-size: 13px; 
+	font-family: nunitolight;color:#7c8890;
+}#remember {
+	width: 100%;
+}.card-container .btn-primary{
+	background:#3598dc; 
+	font-family: nunitolight; 
+	font-size: 15px;
+}/*  .nav.navbar-nav.navbar-right {
+  width: 30%;
+} */
+.title {
+  font-family: "nunitolight"!important;
+  font-size: 12px;
+  font-weight: bold;
+}
+::-webkit-input-placeholder { color:#7c8890; font-size: 15px; font-family: nunitolight; text-align:center; }
+::-moz-placeholder { color:#7c8890; font-size: 15px; font-family: nunitolight;  text-align:center;} /* firefox 19+ */
+:-ms-input-placeholder { color:#7c8890; font-size: 15px; font-family: nunitolight; text-align:center; } /* ie */
+input:-moz-placeholder { color:#7c8890; font-size: 15px; font-family: nunitolight; text-align:center;}
+/* responsive media tag start here*/
+
+@media only screen and (min-width : 992px) and (max-width: 1200px) {
+.inner_mid {
+  /* padding: 200px 0 170px; */
+ padding: 30px 0 0;
+}
+    }
+
+@media only screen and (min-width: 768px) and (max-width: 991px) 
+{
+    #captcha {width: 100px;}
+}
+
+@media only screen and (min-width: 320px) and (max-width: 767px) 
+{	.homeBody {
+	background:transparent!important  ;
+	}
+	.brd_padd {padding:10px!important;}
+	.bdr_design { display:none;}
+	#owl-demo .item img {padding:0px;}
+	#owl-demo .item img{height: auto!important;}
+}
+
+@media screen and (min-width:320px) and (max-width: 479px) 
+{
+	.homeBody img {padding: 10px;}
+	.form-control {max-width: 170px!important;}
+	input[type="submit"] {max-width: 170px!important;}
+	.sigin-container h1 {font-size: 24px;}
+	.sigin-container h3 {font-size: 12px;}  
+}

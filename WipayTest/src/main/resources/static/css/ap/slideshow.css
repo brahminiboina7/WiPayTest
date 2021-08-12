@@ -1,0 +1,55 @@
+#slideshow-area, #slideshow-scroller {
+  position: relative;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+#slideshow-previous, #slideshow-next {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  background: 
+    transparent 
+    /*url("http://tech.pro/_sotc/sites/default/files/467/images/arrow_left.png") */
+    no-repeat 50% 50%;
+  top: 225px;
+  display: none;
+  cursor: pointer;
+  cursor: hand;
+}
+
+#slideshow-next {
+  display: block;
+  background: 
+    transparent 
+    /*url("http://tech.pro/_sotc/sites/default/files/467/images/arrow_right.png")*/ 
+    no-repeat 50% 50%;
+  top: 225px;
+  right: 0;
+}
+
+.slideshow-content {
+  float: left;
+}
+#search_box { opacity:0.8 }
+#search_box fieldset { border:0px; padding:0px; margin:0px; }
+
+#search_box input { 
+/*width:99%; height:24px; margin:0px 0px 0px 2px; padding:2px 0px 2px 0px; border-width:1px 0px 1px 1px; border-style:solid solid ridge solid; border-color:#29A2CD ;font-family:Arial, Helvetica, sans-serif; font-size:small; */
+}
+
+#search_box button{ 
+/*float:right; width:30px; height:30px;  margin:-30px 0px 0px 0px; padding:0px 0px 0px 0px; border-width:1px 1px 1px 0px; border-style:solid solid ridge solid; border-color:#29A2CD ;background-repeat:no-repeat; background-image:url('/img/images/search.png'); 
+*/}
+
+.no_outline a,.no_outline div{outline:none;-webkit-tap-highlight-color:rgba(0,0,0,0)}.msb{position:relative;margin: 2px;}.msfo{padding-right:38px}.msfi{background-color:#fff  !important;border-color:#c7d6f7;border-style:solid;border-width:2px 1px 2px 2px;border-right:none;margin:1px;padding:0;padding-right:0;height:35px;border:1px solid #d9d9d9 !important;border-right:none !important;border-top:1px solid silver !important;padding-right:0}
+.lst{color:#000;line-height:30px;background-color:transparent;border:none;margin:0;padding:0;width:99%;}
+
+.lsbb{-webkit-border-radius:0;padding:0;position:absolute;right:0;top:0;background-color:#ff4f19;background:-webkit-gradient(linear,left top,left bottom,from(#ff4f19),to(#4787ED)) !important;border:1px solid #ff4f19;box-sizing:border-box;-webkit-border-bottom-right-radius:2px;-webkit-border-top-right-radius:2px;height:37px;width:38px}
+
+.sbico {
+    background: url("/img/images/search.png") no-repeat scroll -113px -61px rgba(0, 0, 0, 0);
+    height: 18px;
+    margin: auto;
+    width: 18px;
+}

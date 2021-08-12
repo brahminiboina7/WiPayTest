@@ -1,0 +1,52 @@
+body {
+ margin-left: 0px;
+ margin-top: 0px;
+ margin-right: 0px;
+ margin-bottom: 0px;
+ font-family: "Bitstream Vera Sans", sans-serif;
+ font-size: 11px;
+ color: #000000;
+background-color: #f2F9f9;
+}
+.menuitem {
+	font-family: tahoma;
+	font-size: 11px;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	color: #333333;
+	height: 18px;
+	width: 200px;
+	border: 0px solid #FFFFFF;
+	background-color: #f2F9F9;
+}
+.side a:link {
+	font-size: 11px;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	line-height: 15px;
+	color: #000000;
+}
+.side a:visited {
+	font-size: 11px;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	color: #000000;
+}
+.side a:hover {
+	font-size: 11px;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	color:blue;
+}
+.side a:active {
+	font-size: 11px;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	color: blue;
+}
